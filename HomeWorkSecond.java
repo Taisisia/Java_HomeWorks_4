@@ -23,7 +23,12 @@ public class HomeWorkFirst {
         if ( deferenceM > deferenceN ) {
             System.out.println("Ближайшее число к 10: " + n);
         }
-        else System.out.println("Ближайшее число к 10: " + m);
+               else if ( deferenceM < deferenceN ) {
+            System.out.println("Ближайшее число к 10: " + m);
+        }
+        else if ( deferenceM == deferenceN ){
+            System.out.println("Числа равноотдаленны к 10: "+ n + " и " + m );
+        }
 
     }
 }
